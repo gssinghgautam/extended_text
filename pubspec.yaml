@@ -5,14 +5,14 @@ author: zmtzawqlp <zmtzawqlp@live.com>
 homepage: https://github.com/fluttercandies/extended_text
 
 environment:
-  sdk: ">=2.6.0 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  extended_text_library: ^3.0.0
+  extended_text_library:
+    git: git@github.com:gssinghgautam/extended_text_library.git
 
 dev_dependencies:
   flutter_test:

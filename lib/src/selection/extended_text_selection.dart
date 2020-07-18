@@ -255,7 +255,7 @@ class ExtendedTextSelectionState extends State<ExtendedTextSelection>
 
   VoidCallback _semanticsOnCopy(TextSelectionControls controls) {
     return controls?.canCopy(this) == true
-        ? () => controls.handleCopy(this)
+        ? () => controls.handleCopy(this, ClipboardStatusNotifier(value: ClipboardStatus.pasteable))
         : null;
   }
 
